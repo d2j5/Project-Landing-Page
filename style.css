@@ -60,7 +60,10 @@ a{
 }
 
 .bigb{
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 
 }
@@ -90,10 +93,10 @@ color: #E5E7EB;
 
 .cuadro{
     border: 0px;
-    background-color: #E5E7EB;
-    width: 240PX;
+    background-color: grey;
+    width: 400PX;
     height: 150PX;
-    padding-right: 100px;
+    padding-right: 0px;
     display: flex;
     display: flex;
     justify-content: center;
@@ -102,25 +105,25 @@ color: #E5E7EB;
 }
 
 .herorp{
-    color: #1F2937;
-    text-align: center;
+    color: #E5E7EB37;
+    text-align: cente;
     display: flex;
-    padding-top: 15%;
-    padding-left: 15%;
+    justify-content: center;
+    align-content: center;
     
 }
 
 .title1{
 font-size: 48px;
 color: #f9faf8;
-max-width: 200px;
+max-width: 50%;
 }
 
 .title2{
 font-size: 18px;
 font-display;
 color: #E5E7EB;
-max-width: 200%;
+max-width: 50%;
 align-content: initial;
 text-align: left;
 }
