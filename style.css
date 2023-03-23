@@ -76,21 +76,36 @@ font-size: 18px;
 color: #E5E7EB;
 }
 
-
-.Sec3{
-    background-color: white;    
-    
-
-}
-
 .sec3{
-background-color: #E5E7EB;
+background-color: white;
 text-align: center;
 max-width: 100%;
 display: flex;
-flex-direction: row;
+flex-direction: column;
 align-items: center;
-margin: 0px;
+
+
+}
+
+.sec3 h2{
+    font-size: 36px;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec3b{
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-left: auto;
+    color: lightgray;
 }
 
 .box{
@@ -133,10 +148,47 @@ p, .Thor {
 
 
 .singup{
-    background-color: white;    
-    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
         
+            
     }
+
+.bluesquare{
+    background-color:#3882F6;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 5%;
+}
+
+.button5{
+    color: #E5E7EB;
+    padding: 7px;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+}
+
+.callto{
+    font-size: 24px;
+    color:#E5E7EB;
+}
+
+.callta{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+.calltop{
+    font-size: small;
+    color:#E5E7EB;
+}
 
 
 footer{
