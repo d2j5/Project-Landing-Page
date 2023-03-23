@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 
 body{
-    font-family: 'roboto', sans-serif;
-    background-color: black;
+    font-family:'Times New Roman', Times, serif; 
+    background-color: #1F2937;
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
@@ -44,15 +44,64 @@ a{
     font-size: 18px;
 }
 
-.Sec2{
+.Sect2{
+    color: #f9faf8;
     background-color: #1F2937;    
-    
+    display: flex;
+    align-items:normal;
+    flex-direction:column;
     
 }
+
+.button{
+    color: #E5E7EB;
+    padding: 7px;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.heror{
+font-size: 18px;
+color: #E5E7EB
+}
+
+.title1{
+font-size: 48px;
+color: #f9faf8;
+}
+
+.title2{
+font-size: 18px;
+color: #E5E7EB;
+}
+
 
 .Sec3{
     background-color: white;    
     
+
+}
+
+.sec3{
+background-color: #E5E7EB;
+text-align: center;
+max-width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin: 0px;
+}
+
+.box{
+    border: 1px solid #3882F6;
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border-radius: 10px;
+    padding-left: 15px;
+
 
 }
 
@@ -83,9 +132,9 @@ p, .Thor {
 }
 
 
-.Sec5{
+.singup{
     background-color: white;    
-    height: 20%;
+    
         
     }
 
