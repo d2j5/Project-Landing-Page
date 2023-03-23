@@ -8,38 +8,48 @@ body{
     margin: 0px;
 }
 
-    header{
+header{
         color: #f9faf8;
-        font-size: 24px;
-
+        font-size: 10px;
+        padding
     }
 
 
 
 .sec1{
 background-color: #1F2937;    
-height: 10%;
+
 }
 
 .Sec2{
     background-color: #1F2937;    
-    height: 20%;
+    
     
 }
 
 .Sec3{
     background-color: white;    
-    height: 20%;
+    
 
 }
 
-.Sec4{
-background-color: #E5E7EB;
+.quote{
 color: #1f2937;
 font-size: 36px;
+font-style: italic;
+font-weight:100;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 70px 70px ;
+background-color: #E5E7EB;
+}
 
-height: 20%;
-    
+
+
+b{
+    text-align: right;
+    font-style: normal;
 }
 
 .Sec5{
@@ -50,6 +60,11 @@ height: 20%;
 
 
 footer{
-    background-color: #1F2937;    
+    background-color: #1F2937;
+    color: #FFF;    
     height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0; 
 }
