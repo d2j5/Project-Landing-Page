@@ -26,6 +26,8 @@ background-color: #1F2937;
 display: flex;
 justify-content: space-between;
 align-items: baseline;
+padding-left: 15px;
+padding-right: 15px;
 
 
 }
@@ -37,6 +39,7 @@ li{
     display: flex;
     justify-content: space-around;
     padding: 7px;
+    
 }
 a{
     color: #E5E7EB;
@@ -48,10 +51,20 @@ a{
     color: #f9faf8;
     background-color: #1F2937;    
     display: flex;
-    align-items:normal;
-    flex-direction:column;
+    flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding-left: 15px;
+
     
 }
+
+.bigb{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 
 .button{
     color: #E5E7EB;
@@ -59,21 +72,57 @@ a{
     width: 120px;
     background-color: #3882F6;
     border-radius: 8px;
+    
+}
+
+.herol{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    padding-left: 15px;
+
 }
 
 .heror{
 font-size: 18px;
-color: #E5E7EB
+color: #E5E7EB;
+}
+
+.cuadro{
+    border: 0px;
+    background-color: #E5E7EB;
+    width: 240PX;
+    height: 150PX;
+    padding-right: 100px;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.herorp{
+    color: #1F2937;
+    text-align: center;
+    display: flex;
+    padding-top: 15%;
+    padding-left: 15%;
+    
 }
 
 .title1{
 font-size: 48px;
 color: #f9faf8;
+max-width: 200px;
 }
 
 .title2{
 font-size: 18px;
+font-display;
 color: #E5E7EB;
+max-width: 200%;
+align-content: initial;
+text-align: left;
 }
 
 .sec3{
@@ -190,6 +239,8 @@ p, .Thor {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
+    
+    
 }
 .calltop{
     font-size: small;
