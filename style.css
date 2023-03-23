@@ -152,6 +152,7 @@ p, .Thor {
     display: flex;
     justify-content: center;
     align-items: center;
+    
         
             
     }
@@ -161,6 +162,7 @@ p, .Thor {
     width: 800px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     border-radius: 5px;
     margin: 5%;
 }
@@ -172,6 +174,10 @@ p, .Thor {
     background-color: #3882F6;
     border-radius: 5px;
     border-color: #E5E7EB;
+    display: flex;
+    justify-content:center;
+   align-items: center;
+    
 }
 
 .callto{
